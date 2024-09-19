@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body{
+font-family: "Comfortaa", sans-serif;
+background-color: #FFE5C4;
+}
+html {
+scroll-behavior: smooth;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+nav {
+position: fixed;
+display: flex;
+z-index: 9999;
+top: 0;
+width: 1180px;
+background-color: #C0360A;
+border-radius: 30px;
+text-align: center;
+left: 50%;
+transform: translate(-50%);
+}
+#logo {
+left: 0%;
+display: inline;
+vertical-align: middle;
+margin-left: 30px;
+margin-right: 10px;
+width: 75px;
+height: 75px;
+}
+#FP{
+display: inline;
+vertical-align: middle;
+margin-right: 90px;
+}
+nav ul{
+margin-left: 0;
+padding: 0;
+margin-top: 8px;
+margin-bottom: 8px;
+}
+nav ul li {
+font-size: 16px;
+display: inline;
+vertical-align: middle;
+padding-right:  34px;
+}
+nav ul li a{
+color: #ffffff;
+text-decoration: none;
+}
+
+Header {
+color: #ffffff;
+position: relative;
+height: 1000px;
+width: 100%;
+background: linear-gradient(180deg, #FE9810 0%, #FE9810 0.01%, #FB790B 100%);
+background-size: 100% auto;
+margin: 0;
+padding: 0;
+}
+#ballup{
+position: absolute;
+height: 280px;
+width: 340px;
+left: 100%;
+transform: translate(-100%);
+top: 0px;
+margin: 0;
+}
+#balldown{
+position: absolute;
+max-width: 100%;
+left: 0%;
+top: 730px;
+height: 270px;
+width: 180px;
+margin: 0;
+}
+#ContentHead{
+position: relative;
+max-width: 1290px;
+transform: translate(-50%);
+left: 50%;
+}
+header div{
+top: 325px;
+position: relative;
+width: 569px;
+}
+header div h1{
+font-size: 36px;
+font-weight: 700;
+margin-bottom: 32px;
+}
+header div p{
+width: 500px;
+font-size: 22px;
+font-weight: 300;
+margin-bottom: 32px;
+}
+header div img{
+width: 190px;
+}
+#CircleDog{
+position: relative;
+left: 750px;
+margin: 0;
+padding: 0;
+width: 700px;
+max-width: 37vw;
+max-height: 37vw;
+height: 700px;
+}
+
+.Advantages{
+position: relative;
+width: 1290px;
+height: auto;
+left: 50%;
+transform: translateX(-50%);
+top: 100px;
+color: black;
+margin-bottom: 50px;
+padding: 0;
+list-style-type: none;
+}
+.Advantages h1{
+font-size: 32px;
+font-weight: 700;
+margin: 0;
+margin-bottom: 50px;
+}
+.Advantages ul{
+margin: 0;
+padding: 0;
+}
+.Advantages ul li {
+display: inline-block;
+margin: 0;
+height: 310px;
+width: 300px;
+text-align: center;
+}
+.Advantages ul li h2{
+margin: 0%;
+}
+.ADVcenter {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Advantages img{
+max-width: 200px;
+margin-bottom: 17px;
+}
+.Catalog{   
+position: relative;
+width: 1290px;
+left: 50%;
+transform: translateX(-50%);
+top: 150px;
+color: black;
+margin: 0;
+padding: 0;
+}
+.Catalog #BigDog{
+display: flex;
+background-color: #ffffff;
+border-radius: 50px;
+height: 675px;
+width: 630px;
+}
+.Catalog #BigDogTop{
+    display: flex;
+    vertical-align: middle;
+    height: 36px;
+    margin-top: 30px;
+    margin-left: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+#BigDogTop p{
+    Margin-right:10px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.Dots{
+    height: 36px;
+    width: 36px ;
+    margin-right: 18px;
+}
+.Gender{
+    height: 30px;
+    margin: 0;
+}
+.CpaTb{
+    height: 24px;
+    margin: 0;
+}
+
