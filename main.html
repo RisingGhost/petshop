@@ -9,18 +9,18 @@
 <body>
     <nav>
         <ul>
-            <li>
-                <a href="#Header">
+            <li id="logoscale">
+                <a  href="#Header">
                     <img id ="logo" src="images/logo.png">
                     <p id ="FP">Favorite Pet</p>
                 </a>
             </li>
             <li><a href="#Advantages">Преимущества</a></li>
-            <li><a href="#about">Питомцы</a></li>
-            <li><a href="#projects">Команда</a></li>
-            <li><a href="#contact">Галерея</a></li>
-            <li><a href="#contact">Контакты</a></li>
-            <li><a href="#contact">+7 (999) 333-11-99</a></li>
+            <li><a href="#Catalog">Питомцы</a></li>
+            <li><a href="#Team">Команда</a></li>
+            <li><a href="#Gallery">Галерея</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="tel:+7 (999) 333-11-99">+7 (999) 333-11-99</a></li>
         </ul>
     </nav>
     <header id="Header">
@@ -28,12 +28,12 @@
         <img id = "balldown" src="images/balldown.png">
     
         <section id="ContentHead">
-        <div>
-            <h1>Твой дружелюбный питомец с доставкой на дом </h1>
-            <p>Онлайн-магазин домашних животных - прекрасное решение, завести питомца не выходя из дома. Действую!</p>
-            <img src="images/btn.png" alt="выбрать питомца">
-        </div>
-        <img id = "CircleDog" src="images/DogInCircle.png" alt="Милая Собака">
+            <div>
+                <h1>Твой дружелюбный питомец с доставкой на дом </h1>
+                <p>Онлайн-магазин домашних животных - прекрасное решение, завести питомца не выходя из дома. Действую!</p>
+                <img src="images/btn.png" alt="выбрать питомца">
+            </div>
+            <img id = "CircleDog" src="images/DogInCircle.png" alt="Милая Собака">
         </section>
     </header>
     <section id="Advantages" class="Advantages">
@@ -70,6 +70,7 @@
         </ul>
     </section>
     <section id="Catalog" class="Catalog">
+        <section id="TopCatalog">
         <h1>Каталог</h1>
         <div id=CatContent>
             <div id="BigDog">
@@ -84,19 +85,167 @@
                 <img src="images/BigDog.png">
                 <div id="price">18 318 ₽</div>
             </div>
+            <div id="RContent">
             <div class="Animal">
                 <button class="dropbtn">Собачки<img src="images/arrow.png"></button>
                 
                 <div class="dropdown-content">
-                    <a href="#">Ссылка 1</a>
-                    <a href="#">Ссылка 2</a>
-                    <a href="#">Ссылка 3</a>
+                    <a href="#">Кошечки</a>
+                    <a href="#">Люди</a>
+                    <a href="#">Бананы</a>
                 </div>
             </div>
+            <div id="Mops">
+                <h2>Мальтийский мопс</h2>
+                <span>Послушный, внимательный, легко учит каждое движение и команду</span>
+            </div>
+            <div id="twoDogs">
+            <div class ="lilDogs" id="First">
+                <div class="lilDogsTop">
+                    <div class="TopSpan">
+                        <img class = "Dotsl" src="images/BlueDot.png" alt="Age">
+                        <p class="mesl">месяцев</p>
+                        <img class ="Genderl" src="images/Male.png" alt="Male">
+                    </div>
+                    <div class="TopSpan">
+                        <img class = "Dotsl" src="images/PinkDot.png" alt="Awards">
+                        <p class="awarl">наград</p>
+                        <img class ="CpaTb" src="images/CpaTb.png" alt="Умеет какать">
+                    </div>
+                </div>
+                <img src="images/1ld.png">
+                <div class="lilDogsText">
+                    <h3>Вельш-корги</h3>
+                    <p>Очень дружелюбный, весёлый, подвижны, готовые к длительным прогулкам</p>
+                </div>
+                <div class="Lmprice">18 318 ₽</div>
+            </div>   
+            
+            <div class ="lilDogs" id="Second">
+                <div class="lilDogsTop">
+                    <div class="TopSpan">
+                        <img class = "Dotsl" src="images/BlueDot.png" alt="Age">
+                        <p class="mesl">месяцев</p>
+                        <img class ="Genderl" src="images/Female.png" alt="Female">
+                    </div>
+                    <div class="TopSpan">
+                        <img class = "Dotsl" src="images/PinkDot.png" alt="Awards">
+                        <p class="awarl">наград</p>
+                        <img class ="CpaTb" src="images/CpaTb.png" alt="Умеет какать">
+                    </div>
+                </div>
+                <img src="images/2ld.png">
+                <div class="lilDogsText">
+                    <h3>Вельш-корги</h3>
+                    <p>Очень дружелюбный, весёлый, подвижны, готовые к длительным прогулкам</p>
+                </div>
+                <div class="Lprice">18 318 ₽</div>
+            </div></div>  
+            </div>
+            </section>
+
+            <section id="BotCatalog">
+                <div class ="lilDogs" id="Third">
+                    <div class="lilDogsTop">
+                        <div class="TopSpan">
+                            <img class = "Dotsl" src="images/BlueDot.png" alt="Age">
+                            <p class="mesl">месяцев</p>
+                            <img class ="Genderl" src="images/Male.png" alt="Female">
+                        </div>
+                        <div class="TopSpan">
+                            <img class = "Dotsl" src="images/PinkDot.png" alt="Awards">
+                            <p class="awarl">наград</p>
+                            <img class ="CpaTb" src="images/CpaTb.png" alt="Умеет какать">
+                        </div>
+                    </div>
+                    <img src="images/3ld.png">
+                    <div class="lilDogsText">
+                        <h3>Вельш-корги</h3>
+                        <p>Очень дружелюбный, весёлый, подвижны, готовые к длительным прогулкам</p>
+                    </div>
+                    <div class="Lmprice">18 318 ₽</div>
+                </div> 
+                <div class ="lilDogs" id="Fourth">
+                    <div class="lilDogsTop">
+                        <div class="TopSpan">
+                            <img class = "Dotsl" src="images/BlueDot.png" alt="Age">
+                            <p class="mesl">месяцев</p>
+                            <img class ="Genderl" src="images/Female.png" alt="Female">
+                        </div>
+                        <div class="TopSpan">
+                            <img class = "Dotsl" src="images/PinkDot.png" alt="Awards">
+                            <p class="awarl">наград</p>
+                            <img class ="CpaTb" src="images/CpaTb.png" alt="Умеет какать">
+                        </div>
+                    </div>
+                    <img src="images/4ld.png">
+                    <div class="lilDogsText">
+                        <h3>Вельш-корги</h3>
+                        <p>Очень дружелюбный, весёлый, подвижны, готовые к длительным прогулкам</p>
+                    </div>
+                    <div class="Lprice">18 318 ₽</div>
+                </div> 
+                
+                <div id="Laborador">
+                    <div id="LabText">
+                        <h2>Лабрадор</h2>
+                        <p>Верный и надёжный друг, а так же охранник всей семьи, умный и смелый питомец</p>
+                    </div>
+                    <div id="LaboradorPic">
+                        <div class="LabTop">
+                            <div class="TopSpan">
+                                <img class = "Dotsl" src="images/BlueDot.png" alt="Age">
+                                <p class="mesl">месяцев</p>
+                                <img id="LabGend" class ="Gender" src="images/Male.png" alt="Female">
+                            </div>
+                            <div class="TopSpan">
+                                <img class = "Dotsl" src="images/PinkDot.png" alt="Awards">
+                                <p class="awarl">наград</p>
+                                <img id="Cr" class ="CpaTb" src="images/CpaTb.png" alt="Умеет какать">
+                            </div>
+                        </div>
+                        <img id="LabImg" src="images/Laborador.png">
+                        <div id="Labprice">18 318 ₽</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <button id="LookMore">Посмотреть еще</button>
+    </section>
+    <section id="Team">
+        <img src="images/Team.png">
+        <div id="TeamText">
+        <h1>Команда</h1>
+        <h2>Дружный коллектив</h2>
+        <p id="Teamp">В нашей команде работают молодые, целеустремлённые ребята, способные профессионально выполнять поставленные задачи.</p>
+        <p id="Teampp">Всем им хочется лишь одного − найти свой дом. Приходите к нам и Вы обязательно найдете своего нового друга, которая ждет именно вас! Приглашаем Всех, кто хочет найти себе и своим детям друга, кто хочет подобрать питомца в загородный дом или кто просто хочет помочь еще одной несчастной душе обрести семью!<br><br><br>Мы не можем изменить весь мир, но мы можем изменить мир для одного из них.</p>
         </div>
     </section>
-    <footer>
-        
-    </footer>
+    <section id="Gallery">
+        <h1>Галерея</h1>
+        <div id="Slider">
+            <img id="Left" src="images/SArrow.png">
+            <img id="Main" src="images/Slide1.png">
+            <img id="Right" src="images/SArrow.png">
+        </div>
+        <img id ="Ind" src="images/Ind.png">
+    </section>
+    <section id="Contacts">
+        <div id="ContactsText">
+            <h1>Контакты</h1>
+            <h2>Наш адрес</h2>
+            <p>ул. Киевская, 13, Москва, 133166</p>
+            <h2>График работы</h2>
+            <p class="days">будни</p>
+            <span><img src="images/paw.png"><p>10:00–18:00</p></span>
+            <p class="days">суббота</p>
+            <span><img src="images/paw.png"><p>11:00–17:00</p></span>
+            <p class="days">воскресенье</p>
+            <span><img src="images/paw.png"><p>выходной</p></span>
+            <h2>Наш номер</h2>
+            <h3>+7 (999) 333-11-99</h3>
+        </div>
+        <img id="map" src="images/map.png">
+    </section>
 </body>
 </html>

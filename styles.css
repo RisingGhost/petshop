@@ -10,6 +10,7 @@ scroll-behavior: smooth;
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
   }
 
 
@@ -39,17 +40,21 @@ display: inline;
 vertical-align: middle;
 margin-right: 90px;
 }
-nav ul{
-margin-left: 0;
-padding: 0;
+nav ul li {
+  display: inline-block;
+margin-left: 5px;
 margin-top: 8px;
 margin-bottom: 8px;
-}
-nav ul li {
 font-size: 16px;
-display: inline;
 vertical-align: middle;
-padding-right:  34px;
+padding-right:  30px;
+}
+
+nav ul li:hover{
+transform: scale(1.3);
+}
+#logoscale:hover{
+  transform: scale(1.1);
 }
 nav ul li a{
 color: #ffffff;
@@ -118,9 +123,11 @@ width: 700px;
 max-width: 37vw;
 max-height: 37vw;
 height: 700px;
+bottom: 100px;
 }
 
 .Advantages{
+scroll-margin-top: 90px;
 position: relative;
 width: 1290px;
 height: auto;
@@ -139,8 +146,8 @@ margin: 0;
 margin-bottom: 50px;
 }
 .Advantages ul{
-margin: 0;
-padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .Advantages ul li {
 display: inline-block;
@@ -149,13 +156,9 @@ height: 310px;
 width: 300px;
 text-align: center;
 }
-.Advantages ul li h2{
-margin: 0%;
-}
 .ADVcenter {
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 }
 .Advantages img{
@@ -163,6 +166,7 @@ max-width: 200px;
 margin-bottom: 17px;
 }
 .Catalog{   
+scroll-margin-top: 90px;
 position: relative;
 display: flex;
 flex-direction: column;
@@ -171,8 +175,8 @@ left: 50%;
 transform: translateX(-50%);
 top: 150px;
 color: black;
-margin: 0;
-padding: 0;
+margin-bottom: 50px;
+height: auto;
 }
 .Catalog h1{
     margin-bottom: 50px;
@@ -236,6 +240,8 @@ width: 630px;
 
 .Animal{
     position: relative;
+    width: 630px;
+    left: 494px;
     
 }
 .dropbtn {
@@ -249,7 +255,6 @@ width: 630px;
     padding: 12px 40px 10px 52px;
     gap: 8px;
     line-height: 40px;
-    left: 494px;
     border: none;
     cursor: pointer;
 }
@@ -257,10 +262,6 @@ width: 630px;
 margin-left: 8px;
 height: 14px;
 width: 14px;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
 }
   
   .dropdown-content {
@@ -270,24 +271,344 @@ width: 14px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    width: 190px;
+    border-radius: 50px;
   }
   
   .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    background-color: #75A4FF;
   }
   
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #787DFD;
   }
   
-  .dropdown:hover .dropdown-content {
+  .Animal:hover .dropdown-content {
     display: block;
-  }
+  }     
   
-  .dropdown:hover .dropbtn {
-    background-color: #C7609F;
+  .Animal:hover .dropbtn {
+    background-color: #75A4FF;
   }
-  
+
+  #Mops{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 69px;
+    height: 48px;
+    width: 595px;
+  }
+#Mops h2{
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 12px;
+  }
+#Mops p{
+    font-size: 16px;
+    font-weight: 400;
+      }
+
+      .lilDogs{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-radius: 25px;
+        height: 516px;
+        width: 300px;
+        }
+        .lilDogsTop{
+            display: flex;
+            flex-direction: column;
+            height: 106px;
+            width: 260px;
+            margin-top: 20px;
+            margin-left: 20px;
+            justify-content: space-around;
+        }
+        .TopSpan{
+        display: flex;
+        margin-bottom: 5px;
+        }
+      
+      
+        .lilDogsTop p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        .mesl{
+        margin-right: 90px;
+        }
+        .awarl{
+        margin-right: 100px;
+        }
+        .Dotsl{
+            height: 36px;
+            width: 36px ;
+            margin-right: 16px;
+        }
+        .Genderl{
+            height: 30px;
+        }
+        .CpaTb{
+            height: 24px;
+        }
+        .lilDogsText{
+          margin: 18px 20px 16px 20px;
+        }
+        .lilDogsText h3  {
+          font-size: 16px;
+          font-weight: 700;
+          margin-bottom: 8px;
+        }
+        .lilDogsText p  {
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .Lprice{
+            height: 34px;
+            width: 100%;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            background-color: #E488B8;
+            text-align: center;
+            border-radius: 0 0 25px 25px;
+            line-height: 34px;
+        } 
+        .Lmprice{
+          height: 34px;
+          width: 100%;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 500;
+          background-color: #787DFD;
+          text-align: center;
+          border-radius: 0 0 25px 25px;
+          line-height: 34px;
+      } 
+        #twoDogs{
+          display: flex;
+        }
+    #First, #Second{
+          margin-left: 30px;
+          margin-top: 12px;
+        }
+#BotCatalog{
+  margin-top: 30px;
+  display: flex;
+}
+  #Third{
+    margin-right: 30px;
+  }
+  #LabText{
+    margin-left: 30px;
+    margin-top: 94px;
+    margin-bottom: 20px;
+  }
+  #LabText h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  #LabText p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #LaboradorPic{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 350px;
+    width: 630px;
+  }
+  #LabImg{
+    position: absolute;
+    height: 316px;
+    width: 630px;
+  }
+  #LaboradorPic .TopSpan{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  #LaboradorPic .TopSpan p{
+    margin: 0;
+  }
+  #LabGend{
+    margin-left: 420px;
+  }
+  #Cr{
+    margin-left: 430px;
+  }
+  #Labprice{
+  position: absolute;
+  height: 34px;
+  width: 630px;
+  margin-top: 316px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #787DFD;
+  text-align: center;
+  border-radius: 0 0 25px 25px;
+  line-height: 34px;
+  }
+  #LookMore{
+    position: relative;
+    background-color:#787DFD;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 200px;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 40px 10px 40px;
+    gap: 8px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  #LookMore:Hover{
+    background-color:#75A4FF;
+  }
+#Team{
+  scroll-margin-top: 95px;
+  position: relative;
+  display: flex;
+  margin-top: 200px;
+  width: 1290px;
+  left: 50%;
+  transform: translateX(-52.5%);
+  height: 721px;
+}
+#Team img{
+  position: absolute;
+  width: 908px;
+  height: 720px;
+}
+#Team h1{
+margin-top: 24px;
+margin-left: 680px;
+font-size: 32px;
+font-weight: 700px;
+}
+#Team h2{
+margin-top: 30px;
+margin-left: 680px;
+font-size: 22px;
+font-weight: 600px;
+}
+#Teamp, #Teampp{
+font-size: 16px;
+font-weight: 300;
+}
+#Teamp{
+margin-top: 20px;
+margin-left: 680px;
+width: 338px;
+}
+#Teampp{
+margin-top: 30px;
+margin-left: 956px;
+width: 362px;
+}
+#Gallery{
+  scroll-margin-top: 90px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  width: 1290px;
+  left: 50%;
+  transform: translateX(-52.5%);
+  font-size: 32px;
+  font-weight: 700;
+  flex-direction: column;
+}
+#Slider{
+  margin-top: 50px;
+  display: flex;
+}
+#Left{
+  width: 60px;
+  height: 61px;
+  margin-top: 375px;
+  margin-right: 10px;
+}
+#Right{
+  margin-top: 375px;
+  margin-left: 10px;
+  width: 60px;
+  height: 61px;
+  transform: 
+  scaleX(-1);
+}
+#Main{
+  width: 1290px;
+  height: 800px;
+}
+#Ind{
+  margin-top: 30px;
+  position: relative;
+  width: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#Contacts{
+  position: relative;
+  margin-top: 100px;
+  width: 1920px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  height: 500px;
+  background-color: #787DFD;
+}
+#ContactsText{
+  position: relative;
+  margin-left: 315px;
+  top: 63px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+#ContactsText h1{
+  font-size: 32px;
+  font-weight: 700px;
+}
+#ContactsText h2{
+  font-size: 22px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+#ContactsText span{
+display: flex;
+height: 20px;
+}
+#ContactsText span img{
+width: 20px;
+height: 19px;
+}
+#ContactsText p{
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 8px;
+}
+.days{
+  margin-top: 10px;
+}
+#map{
+  margin-left: 150px;
+  width: 1195px;
+  height: 500px;
+}
