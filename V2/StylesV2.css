@@ -5,17 +5,25 @@ html{
 }
 body{
     background-color: #FFE5C4;
-}
-*{
     margin: 0;
     padding: 0;
+}
+*{
+    margin: auto 0 auto 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .Wrapper{
     position: relative;
     width: 1290px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 100px;
 }
 .White{
     color: white;
@@ -32,7 +40,40 @@ h3{
     font-size: 16px;
     font-weight: 700;
 }
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
 p{
     font-size: 16px;
     font-weight: 400;
+}
+
+header{
+    position: fixed;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    background-color: #E2500F;
+    border-radius: 35px;
+}
+header nav div, ul, a{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    
+}
+header nav div{
+    gap: 10px;
+    margin-right: 130px;
+}
+header nav ul{
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 51px;
+}
+header nav a{
+    margin-left: auto;
 }
