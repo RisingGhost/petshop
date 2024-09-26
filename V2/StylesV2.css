@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+html{
+    font-family: "Comfortaa", sans-serif;
+}
+body{
+    background-color: #FFE5C4;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.link-w{
+    color: white;
+    text-decoration: none;
+}
+.link-b{
+    color: black;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1290px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header{
+    color: white;
+    position: fixed;
+    width: 1290px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header__content{
+    background-color: #E85410;
+    display: flex;
+    position: relative;
+    padding: 0.5%;
+    border-radius: 4vw;
+}
+.container-for-logo{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+.header__logo-container{
+    margin-right: 4vw;
+}
+.logo{
+    margin-right: 0.5vw;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu__list{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.menu__item-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu__item:hover{
+    transform: scale(1.4);
+}
+.contact-tel{
+    font-size: 22px;
+    font-weight: 600;
+    align-self: center;
+    margin-left: 2vw;
+}
+.contact-tel:hover{
+    transform: scale(1.1);
+}
+
+.first-screen{
+    display: flex;
+    background-color: #FC7D0C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header__content--footer{
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    padding: 0.5%;
+}
