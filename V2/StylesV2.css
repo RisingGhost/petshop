@@ -18,7 +18,7 @@ body{
     text-decoration: none;
 }
 .wrapper{
-    margin-top: 10vh;
+    margin-top: 100px;
     position: relative;
     width: 1290px;
     left: 50%;
@@ -100,15 +100,14 @@ body{
 }
 
 .first-screen__container{
-    margin-top: 12vh;
+    margin-top: 120px;
     display: flex;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     justify-self: center;
-
     align-items: center;
-    margin-bottom: 15vh;
+    margin-bottom: 150px;
 }
 .first-screen__text {
     display: flex;
@@ -155,7 +154,7 @@ body{
     font-weight: 700;
 }
 .titles--advantges{
-    margin-bottom: 10vh;
+    margin-bottom: 100px;
 }
 .advantages__container{
     display: flex;
@@ -185,7 +184,7 @@ body{
     
 }
 .titles--catalog{
-    
+
 }
 .catalog_content{
     display: flex;
