@@ -25,6 +25,23 @@ body{
     transform: translateX(-50%);
 }
 
+.button{
+    background-color: #787DFD;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    max-width: 190px;
+    border-radius: 2vw;
+    color: white;
+    font-weight: 400;
+    font-size: 16px ;
+    cursor: pointer;
+    padding: 12px 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+.button:hover{
+    background-color: #75A4FF;
+}
 .header{
     color: white;
     position: fixed;
@@ -79,6 +96,8 @@ body{
     transform: scale(1.1);
 }
 
+
+
 .first-screen{
     display: flex;
     color: white;
@@ -98,7 +117,6 @@ body{
     max-height: 27vh;
     align-self: flex-end;
 }
-
 .first-screen__container{
     margin-top: 120px;
     display: flex;
@@ -120,32 +138,22 @@ body{
     margin-left: 91px;
     max-width: 700px;
 }
-
 .first-screen__title{
     font-size: 36px;
     font-weight: 700;
 }
-
 .first-screen__p{
     max-width: 500px;
     font-size: 22px;
     font-weight: 600;
 
 }
-
-.button{
-    background-color: #787DFD;
-    border: none;
-    outline: none;
-    box-shadow: none;
-    max-width: 190px;
-    border-radius: 2vw;
-    color: white;
+.button--first-screen{
     font-weight: 500;
-    font-size: 16px ;
-    cursor: pointer;
-    padding: 12px 40px;
 }
+
+
+
 .advantages{
 
 }
@@ -180,8 +188,12 @@ body{
     max-width: 280px;
     text-align: center;
 }
+
+
+
 .catalog{
-    
+    display: flex;
+    flex-direction: column;
 }
 .titles--catalog{
 
@@ -189,6 +201,74 @@ body{
 .catalog_content{
     display: flex;
 }
+.button--catalog-menu{
+    align-self: flex-end;
+}
+.catalog__content {
+    display: flex;
+}
+
+
+.dog-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 630px;
+    max-height: 675px;
+    border-radius: 50px 50px 0px 0px;
+}
+    .dog-card__top{
+        margin: 30px 0px 0px 30px;
+        max-width: 570px;
+        max-height: 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .dog-card__top-left{
+        align-self: flex-start;
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }   
+        .dog-card__months-awards{
+            display: flex;
+            align-items: center;
+        }
+    .dog-card__top-right{
+        align-self: flex-end;
+        display: flex;
+    }
+    .dog-card__icns{
+        max-width: 36px;
+        max-height: 36px;
+    }
+    .dog-card__icns--cpatb{
+        max-width: 41px;
+        max-height: 24px;
+        align-self: center;
+    }
+    .dog-card__bot{
+
+    }
+
+
+.dog-card--big{
+
+}
+
+
+.dog-card--medium{
+
+}
+
+
+.dog-card--horizontal{
+
+}
+
+
 
 
 .header__content--footer{
