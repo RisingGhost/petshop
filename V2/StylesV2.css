@@ -215,14 +215,12 @@ body{
     background-color: white;
     font-size: 16px;
     font-weight: 400;
-    max-width: 630px;
-    max-height: 675px;
-    border-radius: 50px 50px 0px 0px;
+    
 }
     .dog-card__top{
         margin: 30px 0px 0px 30px;
         max-width: 570px;
-        max-height: 36px;
+        
         display: flex;
         justify-content: space-between;
     }
@@ -254,25 +252,109 @@ body{
     .dog-card__bot-m{
         background-color: #787DFD;
         display: flex;
-
+        border-radius: 0px 0px 50px 50px;
+        min-height: 50px;
+        justify-self: flex-end;
+        align-items: center;
+        justify-content: center;
     }
     .dog-card__bot-f{
         background-color: #E488B8;
         display: flex;
         border-radius: 0px 0px 50px 50px;
         min-height: 50px;
+        justify-self: flex-end;
+        align-items: center;
+        justify-content: center;
     }
-
+        .dog-card__price{
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+        }
 
 .dog-card--big{
-
+    max-width: 630px;
+    max-height: 730px;
+    border-radius: 50px 50px 50px 50px;
 }
-
+    .dog-card__top--big{
+        max-height: 36px;
+    }
 
 .dog-card--medium{
-
+    max-width: 300px;
+    max-height: 516px;
+    border-radius: 47px;
+    justify-content: space-between;
 }
+    .dog-card__top--medium{
+    margin: 20px 0px 0px 20px;
+    max-width: 260px;
+    max-height: 82px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 
+    }
+    .dog-card__top-left--medium{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 48%;
+    justify-content: space-between;
+    }   
+        .dog-card__months-awards--medium{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            min-width: 50%;
+        }
+    .dog-card__top-right--medium{
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-self: none;
+    display: flex;
+    }
+    .dog-card__icns--medium{
+    max-width: 36px;
+    max-height: 36px;
+    }
+    .dog-card__icns--cpatb--medium{
+    max-width: 41px;
+    max-height: 24px;
+    align-self: center;
+    }
+    .dog-card__bot-m--medium{
+    background-color: #787DFD;
+    display: flex;
+    min-height: 34px;  
+    }
+    .dog-card__text {
+        display: flex;
+        flex-direction: column;
+        max-width: 260px;
+        max-height: 80px;
+        height: 100%;
+        justify-content: space-between;
+        align-self: center;
+    }   
+        .dog-card__title{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .dog-card__p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .dog-card__price{
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    
 
 .dog-card--horizontal{
 
