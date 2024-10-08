@@ -235,6 +235,8 @@ body{
         .dog-card__months-awards{
             display: flex;
             align-items: center;
+            justify-content: space-around;
+            min-width: 50%;
         }
     .dog-card__top-right{
         align-self: flex-end;
@@ -249,8 +251,16 @@ body{
         max-height: 24px;
         align-self: center;
     }
-    .dog-card__bot{
+    .dog-card__bot-m{
+        background-color: #787DFD;
+        display: flex;
 
+    }
+    .dog-card__bot-f{
+        background-color: #E488B8;
+        display: flex;
+        border-radius: 0px 0px 50px 50px;
+        min-height: 50px;
     }
 
 
