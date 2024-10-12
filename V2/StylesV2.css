@@ -195,20 +195,15 @@ body{
     display: flex;
     flex-direction: column;
 }
-.titles--catalog{
-
-}
-.catalog_content{
-    display: flex;
-}
 .button--catalog-menu{
     align-self: flex-end;
 }
 .catalog__content {
     display: flex;
     justify-content: space-between;
-    align-items: last baseline;
+    align-items: flex-end;
     flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 
@@ -255,7 +250,6 @@ body{
         background-color: #787DFD;
         display: flex;
         border-radius: 0px 0px 50px 50px;
-        min-height: 50px;
         justify-self: flex-end;
         align-items: center;
         justify-content: center;
@@ -286,17 +280,33 @@ body{
 
 .catalog__text{
     min-width: 595px;
-    min-height: 180px;
     display: flex;
     align-items: flex-end;
+    align-self: center;
+    
 }
 .catalog__text-cont{
-    
+    margin-bottom: 20px;
+}
+.catalog__cringe-text{
+    display: flex;
+    flex-direction: column;
+
+}
+.catalog__cringe-text--1{
+    max-width: 630px;
+    flex-grow: 1;
+}
+.catalog__two-dogs{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 .dog-card--medium{
     max-width: 300px;
-    max-height: 516px;
+    min-height: 550px;
     border-radius: 47px;
+    flex-grow: 1;
     justify-content: space-between;
 }
     .dog-card__top--medium{
@@ -305,25 +315,21 @@ body{
     min-height: 82px;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-
+    flex-direction: column;
     }
-    .dog-card__top-left--medium{
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 48%;
-    align-content: space-between;
+    .dog-card__top-top{
+        height: 100%;
+        justify-content: space-between;
+        align-self: none;
+        display: flex;
     }   
-        .dog-card__months-awards--medium{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            min-width: 50%;
-        }
-    .dog-card__top-right--medium{
-    flex-direction: column;
+    .dog-card__months-awards--medium{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 45%;
+    }
+    .dog-card__top-bot{
     height: 100%;
     justify-content: space-between;
     align-self: none;
@@ -370,13 +376,45 @@ body{
             font-size: 16px;
             font-weight: 500;
         }
-
-
-.dog-card--horizontal{
-
+.dog-card__img{
+    display: flex;
 }
 
+.dog-card--horizontal{
+    max-width: 630px;
+    max-height: 350px;
+    border-radius: 50px;
+}
+.dog-card__top--horizontal{
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+.dog-card__months-awards--horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    min-width: 20%;
+}
+.dog-card__img--hori{
+    position: relative;
+}
+.dog-card__bot-m--hori{
+    display: flex;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+    min-height: 34px;
+}
 
+.button--look-more{
+    margin-top: 30px;
+    min-width: 250px;
+    align-self: center;
+}
 
 
 .header__content--footer{
