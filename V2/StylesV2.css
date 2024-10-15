@@ -492,9 +492,17 @@ body{
 .contacts{
     background-color: #787DFD;
     color: white;
+    display: flex;
 }
 .contacts__content{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1290px;
+    display: flex;
     padding: 62px;
+}
+.contacts__map{
 }
 .footer{
     background-color: #ffffff;
