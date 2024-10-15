@@ -416,10 +416,94 @@ body{
     align-self: center;
 }
 
+.team{
+    position: relative;
+    display: flex;
+}
+.team__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 276px;
+}
+.team__cringe-image{
+    position: relative;
+    max-width: 908px;
+    right: 30px;
+}
+.team__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.team__title-inner{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.team__left{
+    position: relative;
+    right: 278px;
+}
+.team__text{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    min-width: 276px;
+}
 
+.gallery{
+    max-width: 1430px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__container{
+    display: flex;
+}
+.gallery__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.gallery__arrow{
+    max-width: 60px;
+    max-height: 61px;
+    align-self: center;
+}
+.gallery__arrow--right{
+    transform: scaleX(-1);
+}
+.gallery__slide{
+    max-width: 1290px;
+}
+.gallery__dota5{
+    max-width: 90px;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.contacts{
+    background-color: #787DFD;
+    color: white;
+}
+.contacts__content{
+    padding: 62px;
+}
+.footer{
+    background-color: #ffffff;
+    padding: 100px;
+}
 .header__content--footer{
     background-color: #ffffff;
     display: flex;
     position: relative;
     padding: 0.5%;
+    margin: 0;
 }
