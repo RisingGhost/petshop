@@ -237,9 +237,16 @@ body{
         align-self: flex-end;
         display: flex;
     }
+    .dog-card__inn{
+        display: flex;
+    }
     .dog-card__icns{
         max-width: 36px;
         max-height: 36px;
+    }
+    .dog-card__nmbr{
+        position: absolute;
+        
     }
     .dog-card__icns--cpatb{
         max-width: 41px;
@@ -518,7 +525,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 15%;
+    min-width: 12%;
 }
 .socials__item{
     max-width: 40px;
